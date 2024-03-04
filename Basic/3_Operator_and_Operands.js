@@ -1,9 +1,9 @@
 /* ABCL */
-/* Operator in javascript
+/* Operator in javascript...
 1:- Assignment Operators.
 2:- Arithmetic Operators.
-3:-Comparison (Relational ) Operators
-4:-Logical Operators
+3:- Comparison (Relational ) Operators
+4:- Logical Operators
 5:- Bitwise Operators
 */
 
