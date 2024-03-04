@@ -1,0 +1,4 @@
+/* A prototype is an object that contains properties and methods that are shared 
+among all instances of a particular object. Every JavaScript object has a 
+prototype property.
+ */
