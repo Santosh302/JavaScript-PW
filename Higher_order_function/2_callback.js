@@ -3,6 +3,11 @@ A callback function in javascript is a function passed as an agrument to another
 Callback hell:- it is nested callback functions stacked below one another forming a prymid kind of structure.
 Everey callback here wait for the previous callback , thereby affecting the readability and maintainablility of the code.
 */
-setTimeout(()=>{
-    console.log("Hello Santosh");
-} ,1000);
+function greet(name ,callback){
+    console.log(`Hello  ${name}`);
+    callback();
+}
+function sayGoodBye(){
+    console.log(`Goodbye !`);
+}
+greet('Santosh', sayGoodBye);

@@ -1,9 +1,9 @@
 /* 
-Promises:- promises are an importat concept in modern javascript programming. They allow us to handle asynchronous code and make it more effient and responsive.
+Promises:- Promises are an important concept in modern javascript programming. They allow us to handle asynchronous code and make it more efficent and responsive.
 javaScript is single-threaded so that we need promise.
 */
 
-/* Promise Lifecccle.
+/* Promise Lifecyle.
 The lifecycle of promises consists of 4 stages.
 1 Pending
 2 Resolved
@@ -58,3 +58,18 @@ Consuming the promise values.
      </body>
 </html>
 */
+let promise = new Promise(function(resolve, reject){
+  //Make an asynchronous call and either resolve or reject
+  setTimeout(()=>resolve("I am done"), 1000);
+});
+promise.then(
+  function(result){
+    //Do something with the result
+    console.log(result); //"I am done"
+  },
+  function(error){
+    console.log(error);
+  }
+);
+
+//the above example also use as callback function.
