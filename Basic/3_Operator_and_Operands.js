@@ -32,7 +32,7 @@ var result = num--; // result = 10 ; num = 9
 console.log(result); */
 
 /* Comparision(Relation) Operator
-1 Equal (==):- Compares two valuse for equality, returns true if they are equal and faluse if they are not .
+1 Equal (==):- Compares two valuse for equality, returns true if they are equal and false if they are not .
 2: Strict eqaul(===) :- Compares two value for equality and type , return true if they are eqaul and of the same type, and false if they are not.
 3: Not eqaul(!=)
 3: Strict Not equal(!==)
