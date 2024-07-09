@@ -24,7 +24,7 @@ Other Possible number value are infinity and NaN.
 /* 6 Null:- Null means nothing or empty value. */
 /* 7:- A Symbol is a datatype that can be used as an object property key. */
 
-/* 8: Object:- In javascript, number ,string boolean , undefined, null are called as primitive data type.
+/* 8: Object:- In javascript, number ,string ,boolean , undefined, null are called as primitive data type.
 Object are non- primitive data type because they can hold multiple primitive data types within them.
 The object data type can contain.
 Array , Object.
