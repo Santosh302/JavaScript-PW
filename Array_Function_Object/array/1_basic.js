@@ -16,6 +16,8 @@ const student_name= ["A", "B", "C"];
 console.log(student_name);
 /* By usinng square bracket [] */
 
+
+
 const cars =[];
 cars[0]="a";
 cars[1]="b";

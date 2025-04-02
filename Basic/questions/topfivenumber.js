@@ -1,4 +1,4 @@
-function findTopFiveNumbers(arr) {
+ function findTopFiveNumbers(arr) {
     if (arr.length < 5) {
         console.log("Array should have at least five numbers.");
         return;
@@ -16,3 +16,4 @@ function findTopFiveNumbers(arr) {
 // Example usage
 const numbersArray = [10, 5, 8, 20, 15, 25, 30, 18, 12, 7];
 findTopFiveNumbers(numbersArray);
+ 

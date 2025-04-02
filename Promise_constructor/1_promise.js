@@ -1,5 +1,6 @@
 /* 
-Promises:- Promises are an important concept in modern javascript programming. They allow us to handle asynchronous code and make it more efficent and responsive.
+Promises:- Promises are an important concept in modern javascript programming. 
+They allow us to handle asynchronous code and make it more efficent and responsive.
 javaScript is single-threaded so that we need promise.
 */
 
